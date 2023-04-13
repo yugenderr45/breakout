@@ -1,0 +1,59 @@
+.grid {
+  position: absolute;
+  width: 560px;
+  height: 300px;
+  border: solid 1px black;
+  margin-top: 100px;
+}
+
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: blueviolet;
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+#replay {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  background-color: rgb(22 163 74/var(--tw-bg-opacity));
+  border-radius: .25rem;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+  display: inline-block;
+  padding: .5rem 1.25rem;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+}
+
+#animated_div {
+  width: 90px;
+  height: 47px;
+  background: #92B901;
+  color: #ffffff;
+  position: relative;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px;
+  animation: animated_div 5s 1;
+  -moz-animation: animated_div 5s 1;
+  -webkit-animation: animated_div 5s 1;
+  -o-animation: animated_div 5s 1;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
